@@ -1,0 +1,24 @@
+.searchTapped {
+  animation: entry 0.3s ease-in-out;
+}
+@keyframes entry {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.searchbar,
+.filter-modal {
+  animation: entryOpacity 0.5s ease-in-out;
+}
+@keyframes entryOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
