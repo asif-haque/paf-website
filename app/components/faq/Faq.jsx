@@ -29,11 +29,14 @@ const Faq = () => {
   }, []);
 
   return (
-    <div className="px-5 pt-5 pb-12 bg-slate-100 md:px-16 md:flex gap-16" id="faq">
+    <div
+      className="px-5 pt-5 pb-12 bg-slate-100 md:px-16 md:flex gap-16"
+      id="faq"
+    >
       <div className="flex-[0.4]">
         <h1 className="text-lg font-semibold">FAQs</h1>
         <div>
-          Can't find the answer you're looking for? Reach out to our{" "}
+          Can&apos;t find the answer you&apos;re looking for? Reach out to our{" "}
           <a
             href="https://acharyaprashant.org/en/technical-support"
             target="_blank"

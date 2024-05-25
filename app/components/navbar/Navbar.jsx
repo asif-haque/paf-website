@@ -6,7 +6,7 @@ import Navbox from "./Navbox";
 import OutlineButton from "../reusables/OutlineButton";
 import DesktopNav from "./DesktopNav";
 
-const navbar = () => {
+const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   useEffect(() => {
@@ -76,4 +76,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
